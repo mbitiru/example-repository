@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+    <link rel="stylesheet" href="style1.css" />
+    <title>Alpetass Services</title>
+  </head>
+  <body>
+    <div class="hero">
+      <div class="form-box">
+        <div class="button-box">
+          <div id="btn"></div>
+          <button type="button" class="toggle-btn" onclick="LogIn()">LogIn</button>
+          <button type="button" class="toggle-btn" onclick="SignUp()">SignUp</button>
+        </div>
+        <div class="our-socials-icon">
+        <img src="Icons/icons8-facebook-24.png">
+        <img src="Icons/icons8-instagram-24.png">
+        <img src="Icons/icons8-twitter-24.png">
+        </div>
+        <form id="LogIn"class="input-group">
+          <input type="text" class="input-field" placeholder="Email" required>
+          <input type="text" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>Forgot Password</span>
+          <button type="submit" class="submit-btn">log In</button>
+        </form>
+         <form id="SignUp"class="input-group">
+          <input type="text" class="input-field" placeholder="Email" required>
+          <input type="text" class="input-field" placeholder="Phone-number" required>
+          <input type="text" class="input-field" placeholder="County" required>
+          <input type="text" class="input-field" placeholder="Home Address" required>
+          <input type="text" class="input-field" placeholder="Enter Password" required>
+          <input type="checkbox" class="check-box"><span>I agree to the TERMS and CONDITIONS</span>
+          <button type="submit" class="submit-btn">Sign Up</button>
+        </form>
+      </div>
+
+    </div>
+    <script src="script1.js"></script>
+  </body>
+</html>
