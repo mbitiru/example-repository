@@ -1,4 +1,8 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content added by JavaScript";
+var navLinks = document.getElementById("navLinks");
+function showMenu(){
+    navLinks.style.right = "0";
+}
+function hideMenu(){
+    navLinks.style.right = "-200px";
+}
 
-document.querySelector("body").appendChild(h2);

@@ -1,11 +1,153 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <link rel="stylesheet" href="style.css" />
-  <title>My Website</title>
+    <meta name="viewport" content="width=device-width, intial-scale=1.0">
+  <title>ALPETASS SERVICES</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.2/css/fontawesome.min.css">
+  <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>Hello World!</h1>
+    <section class="header">
+      <nav>
+        <a href="index.html"><img src="Icons/icons8-ENVA-100.png"alt="The Environment"></a>
+        <div class="nav-links" id="navLinks">
+          <i class="fa fa-times" onclick="hideMenu()"></i>
+          <ul>
+            <li><a href="#home">HOME</a></li>         
+             <li><a href="#about">ABOUT</a></li>
+              <li><a href="#services">SERVICES</a></li>
+               <li><a href="#contactus">CONTACT</a></li>
+                <li><a href="#socials">OUR SOCIALS</a></li>
+          </ul>
+        </div>
+         <i class="fa fa-bars" onclick="showMenu()"></i>
+      </nav>
+
+      <div class="text-box">
+        <h1>ALpetass Services</h1>
+        <p>We are a company that offers to help care for the environment. We take your garbage and dispose it safely.<br>Join us today!!</p>
+        <a href="registration.html" class="hero-btn">Want Us to Collect your Garbage??</a>
+
+      </div>
+    </section>
+
+    <section class="home">
+      <h1 id="home"> Welcome To Alpetass Services.</h1>
+      <p>We started as a small scale business targeting house-hold garbage collwction but today we are part of a larger society of the going green initiative</p>
+      <div class="row">
+        <div class="home-col">
+          <h3>Cleaner Homes For Everyone</h3>
+          <p>We want everyone to have home environment they can be comfortable with irregardless of where they are and that is why we offer our services at a very affordable fee. We beleive everyone deserves a clean home environment to live in.</p>
+        </div>
+         <div class="home-col">
+          <h3>Our Fees</h3>
+          <p>We do household garbage collection on Mondays, Wednesdays and Fridays. Every Household receives our services once amongst those days. For every household you pay 300ksh. For monthly basis customers you pay 1000ksh per month.</p>
+        </div>
+         <div class="home-col">
+          <h3>How It Works</h3>
+          <p>Every household on the allocated garbage collection day is supposed to lieave their garabage outside their homes before 8am for collection.The garbage should be in plastic garbage bags.</p>
+        </div>
+      </div>
+
+    </section>
+
+    <!--About-->
+    <section class="about">
+      <h1 id="about">About</h1>
+      <p>What started a small step for us grew to a whole movement to greener life foundation in our homes.</p>
+      <div class="row">
+        <div class="about-col">
+          <img src="Images/IMG_20200328_110450_8.jpg" alt="our CEO">
+          <div class="layer">
+            <h3>Our CEO</h3>
+          </div>
+        </div>
+        <div class="about-col">
+          <img src="Images/pexels-tom-fisk-3186574.jpg" alt="Our machine at work">
+          <div class="layer">
+            <h3>Dump site</h3>
+          </div>
+        </div>
+        <div class="about-col">
+          <img src="Images/pexels-kelly-2382894.jpg" alt="Going Green Initiative">
+          <div class="layer">
+            <h3>Going Green</h3>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!--services-->
+    <section class="services">
+      <h1 id="services">Our Services</h1>
+      <p>Apart from garbage collection we offer other services like:<br>Organic Manure recreation<br>Garbage Equipment Sale<br>Tree seeds sale<br>Bio-Gas production</p>
+      <div class="row">
+        <div class="services-col">
+          <img src="Images/pexels-anna-shvets-5217777.jpg" alt="Garbage Equipment">
+          <h3>Garbage Equipment</h3>
+          <p>Come to our shop and buy all the equipment you need</p>
+        </div>
+        <div class="services-col">
+          <img src="Images/pexels-sasha-kim-9413788.jpg" alt="Organic Manure">
+          <h3>Garbage Equipment</h3>
+          <p>The Organic Manure we produce is from the organic waste collected. 100% natural and good for your crops.</p>
+        </div>
+        <div class="services-col">
+          <img src="Images/pexels-pixabay-266896.jpg" alt="Bio-Gas production">
+          <h3>Garbage Equipment</h3>
+          <p>Our Bio-Gas is reliable for any house-hold cooking and even large-scale cooking.</p>
+        </div>
+      </div>
+    </section>
+
+    <!--ContactUs-->
+    <section class="contactus">
+      <div class="container">
+  <div style="text-align:center">
+    <h2 id="contactus">Contact Us</h2>
+    <p>Leave us your feedback here:</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="Images/pexels-eva-bronzini-6076311.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Your name..">
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+        <label for="country">County</label>
+        <select id="county" name="county">
+          <option value="Kirinyaga">Kirinyaga</option>
+          <option value="Nyeri">Nyeri</option>
+          <option value="Muranga">Muranga</option>
+        </select>
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+  </div>
+</div>
+    </section>
+
+    <!--CONTACT-->
+    <section class="socials">
+      <a href="" class="hero-btn">OUR CONTACTS</a>
+    </section>
+<section class="footer">
+  <h4 id="socials">Contact Us:</h4>
+  <p>You can find us on all social media pages @ <br>Alpetass Services</p>
+  <div class="icons">
+    <img src="Icons/icons8-instagram-24.png">
+      <img src="Icons/icons8-facebook-24.png">
+        <img src="Icons/icons8-twitter-24.png">
+  </div>
+</section>
+
+
     <script src="script.js"></script>
   </body>
 </html>
