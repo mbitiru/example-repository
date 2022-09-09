@@ -316,6 +316,9 @@ input[type=submit]:hover {
   font-weight: 600;
 
 }
+.footer p{
+  color: #fff;
+}
 .icons .fa{
   color: #408036;
   margin: 0 13px;
