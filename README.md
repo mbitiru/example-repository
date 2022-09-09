@@ -1,7 +1,7 @@
 # example-repository
 -By Tanveer Mbitiru Chege
 ### Project Description
-Alpetass SErvices offers a better way to get rid of your  garbage. OUr webpage contains all the necessary things about who we are, what we offer from garbage collection services to equipment sale to how you can get our services and finally how you can find us on our socials.
+Alpetass Services offers a better way to get rid of your  garbage. OUr webpage contains all the necessary things about who we are, what we offer from garbage collection services to equipment sale to how you can get our services and finally how you can find us on our socials.
 
 The active link to our demo can be found at: https://github.com/mbitiru/example-repository. To run the webpage first install git to your machine then clone the repository to your local machine. After this run your index.html to render the webpage to your prefered web browser.
 
